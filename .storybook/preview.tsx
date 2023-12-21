@@ -1,11 +1,10 @@
 import React from 'react'
-import GlobalStyles from '../src/styles/global'
+import '@/styles/global.css'
 
-export const decorators = [
-  (Story: React.ComponentType) => (
-    <>
-      <GlobalStyles />
-      <Story />
-    </>
-  )
-]
+const withGlobalStyles = (Story) => (
+  <>
+    <Story />
+  </>
+)
+
+export const decorators = [withGlobalStyles]
