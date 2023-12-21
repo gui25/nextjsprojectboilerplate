@@ -1,9 +1,9 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import LandingPage from './'
+import Main from './'
 
-test('LandingPage renders correctly', () => {
-  const { asFragment } = render(<LandingPage />)
+test('the Main component renders correctly', () => {
+  const { asFragment } = render(<Main />)
 
   const titleElement = screen.getByText('Next Project Boilerplate')
   expect(titleElement).toBeInTheDocument()

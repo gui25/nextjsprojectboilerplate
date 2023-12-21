@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LandingPage = () => {
+const Main = () => {
   return (
     <main className="bg-gradient-to-r from-indigo-900 to-blue-900 text-white min-h-screen pb-20 md:pb-0 pt-20 md:pt-0 flex flex-col justify-center items-center">
       <div className="max-w-4xl mx-auto px-6 text-center">
@@ -18,4 +18,4 @@ const LandingPage = () => {
   )
 }
 
-export default LandingPage
+export default Main
