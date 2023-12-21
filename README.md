@@ -38,7 +38,7 @@ The Next.js Project Boilerplate serves as a starting point for developing applic
 01. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/next-js-project-boilerplate.git
+    git clone https://github.com/gui25/next-js-project-boilerplate.git
     cd next-js-project-boilerplate
     ```
 
